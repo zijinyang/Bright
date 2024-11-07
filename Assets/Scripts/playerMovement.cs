@@ -15,6 +15,9 @@ public class playerMovement : MonoBehaviour
     Rigidbody2D rb;
     BoxCollider2D cldr;
 
+    //wax counter
+    public int waxNum;
+
     //double jump
     // float jumpTimer = 0;
     bool canDoubleJump = false;
@@ -33,6 +36,7 @@ public class playerMovement : MonoBehaviour
         cldr = GetComponent<BoxCollider2D>();
         rb.freezeRotation = true;
         groundMask = LayerMask.GetMask("Ground");
+        waxNum = 0;
     }
 
     void OnMove(InputValue value)
@@ -46,6 +50,8 @@ public class playerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
             numJumped++;
             canDoubleJump = false;
+            Debug.Log("1");
+            Debug.Log(isGrounded());
         }
         if(numJumped == 1 && canDoubleJump){
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
@@ -59,7 +65,7 @@ public class playerMovement : MonoBehaviour
         if(isGrounded()){
             numJumped = 0;
         }
-        if(Mathf.Approximately(rb.velocity.y, 0)){
+        if(Mathf.Approximately(rb.velocity.y, 0) && waxNum > 1){
             canDoubleJump = true;
         }
         rb.velocity = new Vector2(moveDir.x * movementSpeed, rb.velocity.y);

@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 364412834}
   - component: {fileID: 364412833}
   m_Layer: 0
-  m_Name: Collectible
+  m_Name: waxShard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -311,6 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe38ab9db01cb477299359796947c24f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1901145688}
 --- !u!61 &364412834
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -515,6 +516,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1901145688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7094855512168640859, guid: 228be9770f7f7447d9a1cc6516a3aab5, type: 3}
+  m_PrefabInstance: {fileID: 222132770474186836}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &222132770474186836
 PrefabInstance:
   m_ObjectHideFlags: 0
