@@ -1,59 +1,72 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-public class PlayerMovement : MonoBehaviour // Defines a new class named playerMovement. 
-                                            // Since it inherits from MonoBehaviour, it can be attached to a GameObject in Unity.
+
+public class playerMovement : MonoBehaviour
 {
-    [SerializeField] float boostModifier = 1.5f; // [SerializeField] attribute allows the variable to be editable from the Unity Inspector
-    // [SerializeField] Animator animator;
-    SpriteRenderer spriteRenderer;
-    private Rigidbody2D rb = null;
-    private Vector2 inputDirection = Vector2.zero;
+    [SerializeField] float movementSpeed;
+    [SerializeField] float jumpSpeed;
+    Vector2 moveDir = Vector2.zero;
+    Rigidbody2D rb;
+    BoxCollider2D cldr;
 
+    //double jump
+    // float jumpTimer = 0;
+    bool canDoubleJump = false;
+    float numJumped = 0;
+    int groundMask;
 
+    bool isGrounded()
+    {
+        return Physics2D.Raycast(transform.position, -Vector2.up, cldr.bounds.extents.y + 0.1f, groundMask);
+    }
+
+    // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); // This allows interaction with the physics system of the GameObject.
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
+        cldr = GetComponent<BoxCollider2D>();
+        rb.freezeRotation = true;
+        groundMask = LayerMask.GetMask("Ground");
     }
 
     void OnMove(InputValue value)
     {
-        var movementDir = value.Get<Vector2>(); // (0,1) = Up, (0,-1) = Down, (1,0) = Left, (-1,0) = Right
-        Debug.Log(movementDir);
+        Vector2 inputDir = value.Get<Vector2>();
+        moveDir = inputDir;
+    }
 
-        rb.velocity = movementDir * boostModifier;
-
-        inputDirection = movementDir;
-
-        // Animation
-        if (Mathf.Approximately(rb.velocity.magnitude, 0))
-        {
-            // animator.SetBool("running", false);
+    void OnJump(InputValue value){
+        if(numJumped == 0){
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            numJumped++;
+            canDoubleJump = false;
         }
-        else
-        {
-            // animator.SetBool("running", true);
-        }
-
-        if (movementDir.x < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else if (movementDir.x > 0)
-        {
-            spriteRenderer.flipX = false;
+        if(numJumped == 1 && canDoubleJump){
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            numJumped++;  
         }
     }
 
-
-    private void OnCollisionEnter2D(Collision2D collsion)
+    // Update is called once per frame
+    void Update()
     {
-
+        if(isGrounded()){
+            numJumped = 0;
+        }
+        if(Mathf.Approximately(rb.velocity.y, 0)){
+            canDoubleJump = true;
+        }
+        rb.velocity = new Vector2(moveDir.x * movementSpeed, rb.velocity.y);
     }
 
-
+    void FixedUpdate()
+    {
+        
+    }
 }
