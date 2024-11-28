@@ -21,7 +21,6 @@ public class playerMovement : MonoBehaviour
     //double jump
     // float jumpTimer = 0;
     bool canDoubleJump = false;
-    float numJumped = 0;
     int groundMask;
 
     bool isGrounded()
@@ -46,16 +45,12 @@ public class playerMovement : MonoBehaviour
     }
 
     void OnJump(InputValue value){
-        if(numJumped == 0){
+        if(isGrounded()){
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-            numJumped++;
-            canDoubleJump = false;
-            Debug.Log("1");
-            Debug.Log(isGrounded());
         }
-        if(numJumped == 1 && canDoubleJump){
+        if(!isGrounded() && canDoubleJump){
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-            numJumped++;  
+            canDoubleJump = false;
         }
     }
 
@@ -63,7 +58,10 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         if(isGrounded()){
-            numJumped = 0;
+            canDoubleJump = true;
+        }
+        if(waxNum < 1){
+            canDoubleJump = false;
         }
         if(Mathf.Approximately(rb.velocity.y, 0) && waxNum > 1){
             canDoubleJump = true;
