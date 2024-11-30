@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3559065344424291900}
   - component: {fileID: 2020912045463904777}
-  - component: {fileID: 7981306555135016117}
   m_Layer: 0
   m_Name: lightining collider
   m_TagString: Untagged
@@ -78,19 +77,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.71, y: 6.49}
   m_EdgeRadius: 0
---- !u!114 &7981306555135016117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479674792429149358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff695b3f1b3414d9180b175e51c5423d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 7094855512168640859, guid: 228be9770f7f7447d9a1cc6516a3aab5, type: 3}
 --- !u!1 &1544742349701963892
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +268,7 @@ MonoBehaviour:
   useWiggle: 1
   X: 1
   Y: 1
+  Z: 0
   _ArcingPowParam1: 0.28
   _SineScaleX: 0.15
   _SineScaleY: 0.9
@@ -480,6 +467,7 @@ MonoBehaviour:
   useWiggle: 1
   X: 1
   Y: 1
+  Z: 0
   _ArcingPowParam1: 0.28
   _SineScaleX: 0.15
   _SineScaleY: 0.9

@@ -1,0 +1,6274 @@
+fileFormatVersion: 2
+guid: c34d2c8682e3703478fb19fb782ad960
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heaven_Sample_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196b0ebbf4635144d9d0501772047b68
+      internalID: 657717804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2ced59acc9c9d4898776ca34f58fee
+      internalID: 1725641393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641c59dd6ce037e459bbbcaf4de3ab6c
+      internalID: -776579763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a59a6dbce191047912dfcfa9113ad9
+      internalID: 1168667697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcea59c2865a48489a06009bc01f973
+      internalID: -1066357506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b806ba96b1df214db95a228a35380d4
+      internalID: 427831317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d426459813b280f45aa19a56a1778705
+      internalID: 643703203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4624fad48108524bb956e160fb27538
+      internalID: 325515713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e2caef60ed4cb4fb98e832f9f826bf
+      internalID: 1733228184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f286b0a855c3ddd46a1678f04453cc5c
+      internalID: 501187580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cff7e1c540a0748bdfe3aaf59ae07e
+      internalID: -2146599900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb77342d515031d469176e1780b00a29
+      internalID: 879057727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85da4f752fb8504187e4410bc162565
+      internalID: 162137266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ac873339f101b4184f88a46a0a503a
+      internalID: 791680332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0baa46e03e8a5344af3f3b88ca7360b
+      internalID: -1820558171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedd7a0610bf9744ca4df17fa356b04c
+      internalID: 2129149973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72da4fddfef8e446a1e86646b4484fd
+      internalID: -473498025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea261718ce5bee4cb53ad6121224eeb
+      internalID: -605684945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27357968e434026439653e27a10db034
+      internalID: 1162046049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffe90a649df40844b65edb871158a68
+      internalID: 1139816096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c324f2b65b1b342920f087526b57e0
+      internalID: -1659634808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e00584398d990c47b2c01cb6dd87a68
+      internalID: 872439515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0972182562bd57d43bd04e16350700b9
+      internalID: -1059939014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4361fb16c896c024da9f12a39aa4d06c
+      internalID: -1772874424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa03744c5b9c544aa280a75722885e6
+      internalID: -1684737834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5d522aafb1534da57f260af648852
+      internalID: -334134426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d43d3a660c484587757f22b2c193e
+      internalID: 1003692525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecbf78cd4c7e4844b0a77c8165927fa
+      internalID: 1185731830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb2dc740bbd49f4389b2f05177c7d69
+      internalID: 1729782550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efee87b4288dbc46b99da00d7befc5a
+      internalID: 344635548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_30
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b7ee71c867af74e99f6543f79c03b8
+      internalID: 1535811347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_31
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09796cd64b52338449e357072d83ca68
+      internalID: 223218386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a91ea3223154624eb02d0bcb7dd6dee
+      internalID: 1047641489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_33
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10223bbc8f776743bc97cdc4c598e01
+      internalID: 1147198451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db35346123ea99498fd0264684a9345
+      internalID: 591075016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f3fef8f80bccb44bec973fa368ee0f
+      internalID: -930714306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd13d8c554abdd46ad3f862e7167694
+      internalID: 1476504717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_37
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713c38b1d394cad48aba03617cee1326
+      internalID: 1967393145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_38
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0773d86fa944f4fb6129d01df2f1f4
+      internalID: 633138239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_39
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23314b5295a53a04295801bf3b3effc3
+      internalID: -823606190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a7d4d55cdcda24387192c7cfd9aa90
+      internalID: -1436997534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53980d35d1fd9df4a98cec827322c9a6
+      internalID: 835979097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e2ec4816c552b4093055ec46c52e28
+      internalID: 1355150480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741b21bc24589544da4b018dd01b74b0
+      internalID: -90883707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961bb466c0d07c74aa65d8316c47d127
+      internalID: 1088663589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57b97e362923b9418f3bed5eb9d3dec
+      internalID: 247130707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c02c7e6573d594489199cb5811ad650
+      internalID: 990655534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193d5664487e1994ca00b014bc240eac
+      internalID: -56870178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc06472f4c4eb87458d92fb2bf6e3531
+      internalID: -723975582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5905606068d04b4299e13accf5a4252
+      internalID: -1070470006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7821e4fb880b942b749fbc28003d1e
+      internalID: -1539166226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_51
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926bcf170a87af840b91846107b65c9d
+      internalID: 601432445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b4c91e573b47543b69fde846fa24b6
+      internalID: 918491231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_53
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a561b0c431db6d648ba6eac702759cdd
+      internalID: 229626257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_54
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5899166e9decf934eb5ce6a5c2b220b0
+      internalID: -1846190750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9dde133a36c964e8dd5d80140ff379
+      internalID: -1066023393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0231cb375c87d4d80ecd76eb303c37
+      internalID: 2142402401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_57
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1379af21744d24ab5c4925ed0c0fe3
+      internalID: -492608754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_58
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d19c018662b794db4c797fd870a813
+      internalID: -1518302149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_59
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554208b7bcd70e2438780f96754f8db5
+      internalID: 1873598794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a52e7b5f98bd4b80c785a4a4a5d6c
+      internalID: -604961622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0896b01d1b36484bbcb21ef5195f6fc
+      internalID: 794537932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892d4d45db5fae447b524db20528bb67
+      internalID: 108401326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268a3a7f458f2f843a69f33512569086
+      internalID: 929799760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80b6710b10006c4a8576621391b278a
+      internalID: -432599538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e692bc4eba2956e4996bc529ac166e88
+      internalID: 1698839754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6fbb44281d071448aae46144e69e51
+      internalID: -1399986054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139be9d2f8b3c404a8904afc846c9ea3
+      internalID: 1134389000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f17579c0a1e674dac0d1142e7135d5
+      internalID: -512629337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e72705bb931724096cf51ef8474fa8
+      internalID: -900122643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1ec2c4855dcca47808b35748de8396
+      internalID: -343719952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5427f7f07c7a89b4a8f127c0b834c457
+      internalID: -384883393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d2eed00d688cb41a026be8e34b5570
+      internalID: 308414471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_73
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5093cfa7b1a314393a5a9df261406f
+      internalID: 491650627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec280222e6060e143b3275c88e76d608
+      internalID: -212661401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e69dbd9798639045bed3dbef9cf0fd5
+      internalID: 837212819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_76
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0f52226282f4843a718275a86facba
+      internalID: 1629769068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_77
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c4ab3f124dbb74fbf00422b4207720
+      internalID: 79159778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_78
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a62e7bdc1ca6040a6a6da64c71c30c
+      internalID: -1734599447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_79
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a7af1ebf1880e43821dfb2b1a1e033
+      internalID: -1293083530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c1e84506fed584696efdde7bded7fd
+      internalID: -1623360843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfb272718a5bb64988ae236c049bb27
+      internalID: 1413822614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b6f9472b1183e4f9f0e6e0fa2ceee9
+      internalID: -1974624520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6470c172a1c8148a2b4835063c76b7
+      internalID: -2120691857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db1a6086993fe74caf3bbbb43e22ddc
+      internalID: -1630868914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2100c5c97d17f44fab5813cbe68ca12
+      internalID: -1532122062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f661dbb8ac5262147b95d599ea557b0e
+      internalID: -129860908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a1eb13dc3e2b24596d24db911c6b6f
+      internalID: -906609095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b5c6eb9a1342b4da475ab91f687dcf
+      internalID: -83314965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e2d7908e8aa214190fa4bc475a3ec0
+      internalID: 2074807269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5bbca034ce76e459ec6fc218587fa0
+      internalID: -1434905315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329c159f2d4bdb74dae25108206e87b2
+      internalID: -1609252466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb254111b66c434d8d8109054d32b0a
+      internalID: 539808077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9257d28c323214faf2710f435d0f51
+      internalID: 1917309130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620b17769be2a2e42bc7fb7a296a4cdc
+      internalID: -305119593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fa1888d7f3c4a46b6015dddc3f6e52
+      internalID: 334144935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953e76cdcde362b44ba9a818436c9883
+      internalID: -904976695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_97
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032e35f3357584e40bdc21d874bb2d68
+      internalID: 1464689740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_98
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b36eba6911c6b04999d96b53b45f93d
+      internalID: 696318711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_99
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8055b72508ebd40803a890c67ce676
+      internalID: -1773554463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004b25f978a0dff4d92af912b66d357f
+      internalID: 2085462629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f3bcb8900a42a41ad8a17f16a6c863
+      internalID: -2035023505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf56e9ed820c44649aed22089cd5a7a8
+      internalID: -1627527856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac04e4a45e026794190f2ef1d5781864
+      internalID: -782161857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a862b8526461284c95733d22e83c653
+      internalID: 1806364386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0427bac954216364fa3aa8451c011f8c
+      internalID: 724139863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a21d540dc167e54d8157e717114f3d8
+      internalID: -2045845469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_107
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08156f848e159c745b9ac5452c91b94a
+      internalID: -880198757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ea5ce1274b0674ba85fb8e029d31c1
+      internalID: -701866596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_109
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302b3c67a8a09c94ea36fd4563d7b86f
+      internalID: 2074119309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f4ca9a1670b7d44913acab98389a7d
+      internalID: 1157780769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_111
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966c7ff370c57654599c637fe0bd085e
+      internalID: 682463933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_112
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d801e054cf1751944a9abef3f07ef3b5
+      internalID: 2076091262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_113
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b44583be1e3a5a44b3db65ec07d422a
+      internalID: 1016520219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_114
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cd095903251fe44ad87ad000d7a370
+      internalID: 1596050064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_115
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21932a15807232c4a8ff104248e70186
+      internalID: -158163788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_116
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b49b651ef75fa448b946fb3a70252eb
+      internalID: -177157361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_117
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969e04decb346ba45911ba8e9f67d2bf
+      internalID: 1182251193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_118
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0333a2714556e0e4c897eca7b69c6572
+      internalID: 775011091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_119
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd76cb17656afca4484e6a8260f4bc11
+      internalID: 785982971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ecee11b2d89244db84ce0ca4abf9e9
+      internalID: 1898244405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0290dc02bd27d4da4a84de786d6856
+      internalID: 2077934405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b02888cd666fc4682f42faadc743df
+      internalID: -97382537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7317b0bbeabc2e54797bd20a721b543d
+      internalID: 988371993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e0ccd349ae430499a3f671690d0fad
+      internalID: 631534778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b379f1698933b47959bcd89cb235c2
+      internalID: 380211462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb15a75c205f374aa4b966b84be25dc
+      internalID: 1470153838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_127
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3951fb4dceaf078488c64ab5f89e5117
+      internalID: -79268764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_128
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5e9af96d934f342a91afad67434092
+      internalID: -844939366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_129
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33357890d52507b4aa41627f9e74d92f
+      internalID: -5333855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_130
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb921c45c313b3645867a401798fbc50
+      internalID: -1251029863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_131
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec744abbddfbe146a64735e753e00a8
+      internalID: -1746003627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_132
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d728306b7f90c4586528b9eb4479f5
+      internalID: 652223838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_133
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196ef260e129b1247a11e320eca7df4e
+      internalID: 1131201038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_134
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3de5662b1ad1243af772b0bd6e3d92
+      internalID: 2059287326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_135
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf80d7ccec604fc4190ddcd576646aea
+      internalID: -2085555992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_136
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3105a5bf646753b4aaf88019e1ae87d7
+      internalID: 233786869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_137
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d37c0a9389c8488a5ba63f0435b02
+      internalID: 1618710719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_138
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c35471df82e8e4884a420aea577f5d
+      internalID: 1253098699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_139
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaed1b6e6bcaf3419525cdb548030de
+      internalID: -1229469616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665ae5cbbd103a94cb44049ad8d20641
+      internalID: 1929475556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_141
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bddf1a885171d4eabdf656c5ed4f6e
+      internalID: 762842524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bea540b414efd42b07544e72ef0ac2
+      internalID: 671703724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18a5a042aff5a94bb01e8d922148aa4
+      internalID: -1769530506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a461b84868de4d54197765f64dc92433
+      internalID: -1379530507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784bdd628bb3528419c02c91f67f0657
+      internalID: -666300943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f0ac0aaba42d44ea56fcc0a5d520db
+      internalID: 494632453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_147
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b43985c2e0f7f44087004daba8eb357
+      internalID: -50721257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9124c94cb150e004e94bc50427178882
+      internalID: 2102027914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_149
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7f7725846ddfd4a97457eb547f19b1
+      internalID: -655181434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_150
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6ce9b043baefb40861ba9d43cae0ea
+      internalID: -70368663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_151
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bf765a94727814b90f3ec9d63bc363
+      internalID: 1746963254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c390a691fd6aa294bb7b9b1a29aed535
+      internalID: 1611509646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_153
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bb558f7d72eb14b9e442cfd06b336d
+      internalID: -600296066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_154
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28915421fb7b0c9419a66abadf8dac1d
+      internalID: 360906957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_155
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5751987b91b6d924ebec59fbc197d339
+      internalID: 142780514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_156
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de283c89877b4a64ca5eb6b6929202a5
+      internalID: 1022568820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_157
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fc2c0b0d6395344bd7d8760a933536
+      internalID: -1732366593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_158
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b79e1529e034f4ea97653a3cf7ce10
+      internalID: 1507770232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_159
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7aaf572e549124386ba57813611413
+      internalID: 2042669062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6658b28629eb54dad382094ae456d0
+      internalID: 502002270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005f6588449516f4ba924342d212fb6d
+      internalID: 321351934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23413e624222b63418ac064f651994b7
+      internalID: -384578115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02620c6524962404988e6fca57c88ea9
+      internalID: 1609502882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_164
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e13c5dd4f395844a06a58efaa7d981
+      internalID: 270043859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_165
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6e5efd77b577c4a92a2984bad24933
+      internalID: 367802721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_166
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c76b9ca3bf58346a11feef21361d1f
+      internalID: -629644141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b783d24b1300f84bbac914b2b2630fd
+      internalID: 906611830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_168
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d78bc228d6add84bb2b6b1139389626
+      internalID: 667332193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_169
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd775e4ecc31104db222dad53b822fa
+      internalID: 1242081688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21efaf406d1d11048934578630732bf1
+      internalID: -406418297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_171
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46041c39b545cbe4f84c7a83f571d7f5
+      internalID: 2084970691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_172
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38820306232ca7548a2270a8498f9a9a
+      internalID: -1749986319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_173
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b518ada695e52af40b067f93401eac18
+      internalID: 251232546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_174
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa0e5ea80c3f8c438c35cd45343bcae
+      internalID: -1223780350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_175
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2dc6ffa74950e4f86fa106b743053f
+      internalID: 597238335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_176
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f1294410378d644849a1e66406a61f
+      internalID: 1874648528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_177
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc7edbf04563bb438f2e12070cb9b18
+      internalID: -326450999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_178
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2380902eeec8f34468cac13fbff62ad7
+      internalID: 1613820305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_179
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9934befa34f5d3419e175b3126f4526
+      internalID: -93114462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e348f032ea1c340b8f3cd857797b4a
+      internalID: -1220035158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_181
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e37ff59e20da144b0f5f88fab510be
+      internalID: 1911890191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_182
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc088748dde7734fa03b09bbcc1242a
+      internalID: -25041133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_183
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f613528e5f094554bbf32b55a2774e82
+      internalID: 752756875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90ec4ed23282b44ab2f471e9ccc8bbf
+      internalID: -1778147365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_185
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccd279a389cd7b439e45553623e637f
+      internalID: -1440739831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_186
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a76139c430d9c04dae9d47bc6e7aa6c
+      internalID: 1354411962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_187
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974765e005f41ba4eb07179390805b09
+      internalID: -1371262582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_188
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8cda54037820b489c694d7d30533ae
+      internalID: 654693460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_189
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010effa078cb98644810f79f8dac81f5
+      internalID: 947626491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_190
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2524b23d671f1d9418506cf37a41379d
+      internalID: 1245390958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_191
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da33026c4ef4ebb44ba0a25bc7d6efd0
+      internalID: -770617563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_192
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e2a05188b602d4ea6328df0c4248b0
+      internalID: -790254718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_193
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032f0b69be91d2d4aa90e36ef696f14d
+      internalID: -877092194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_194
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42b9b0f1734fba47b0a8ee43e778494
+      internalID: -443478461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_195
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404c0395b875efb478b8506b6f57dece
+      internalID: 1788525778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_196
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3088a30ea620f4f97e1aa5c7a685d6
+      internalID: 2036080568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_197
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f5e3fea8af50540af36cd20a1dec13
+      internalID: -1280076643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_198
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a133de1347892e14fbb73374918633e7
+      internalID: 968104836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_199
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150c991ec02ad734980c3fdcee0794fe
+      internalID: 222914986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694349d2e3314554dae3774c27a173f8
+      internalID: -263745061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_201
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc796968718a0449600515a5388833
+      internalID: -1143756377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_202
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be347d588a2c5c74d9680db34897da0b
+      internalID: 1377848778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_203
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3172c76ac4ade4089b1363e2787102
+      internalID: 647953788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_204
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbd816cbd775b14ba5f7da7ed40c40c
+      internalID: 872057070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_205
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739d6400a64563747ac1b81c89340f56
+      internalID: -43449190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_206
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fea5699b4dbfd42adc1ad92ad32af9
+      internalID: 335083291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_207
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c002cb93116ff7646bf3e43db4e98e54
+      internalID: -2049313960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_208
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8fa405448a621438105322709d1f99
+      internalID: -1297128499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_209
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23b028b3d0cca242a9560abdbd9710e
+      internalID: 890505646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_210
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705911344c888da46b6d555636011e08
+      internalID: -1034507134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_211
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92db14ceaf03af45ba4c0f156c896cf
+      internalID: 1757930509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_212
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6926f7ac12b6e448aaf421bce88a2e
+      internalID: 630397012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_213
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103daf74a29dd240a56db5bcd31455c
+      internalID: 991655475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_214
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2455980d7a6a82644b30e06a70f3b70e
+      internalID: 237478542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_215
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d899e04312e5a7c44920b6e5c8723cea
+      internalID: -1133044032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_216
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4063a12a3948d34eb351e07a7c5f1f5
+      internalID: 982514688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_217
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aa9720e02160f46b1f4a8dc2772b1b
+      internalID: -1586551979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_218
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637a62c290985054e86a699bb55f9b2f
+      internalID: 1374015066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_219
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 124
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f516b4f9b098d04b9e3d53509f46ab0
+      internalID: -1009026160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcd1077a2a6c8a4c84a2ae83c44fa6e
+      internalID: -913664501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_221
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd58c65290f8c7e428aae34bc2dd91cf
+      internalID: -1812203546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_222
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b94f69a699fb054caa31428909e0b1c
+      internalID: 1524800871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_223
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b373f93b14c70b42882e192c428d968
+      internalID: 352299082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_224
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337132106a60a7748946b1c48c4d4503
+      internalID: 547946985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_225
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156cd6c7900fe5f4e9d08f88332993ff
+      internalID: -1444237471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_226
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62da0f8d7b44f654da9c9c530ea648ef
+      internalID: 945056360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_227
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4dd0054c9825b47a1cfe07b143d876
+      internalID: -1276174308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5010e33428649841a6c6f12563c3f9b
+      internalID: 1586367815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_229
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39018d3cece8fd34a905e4533a07dc7b
+      internalID: 117459152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_230
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeb0f9dc215173448175ce34827a7b3
+      internalID: -106854582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_231
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772ba65956986ef468bb8931f6d826bd
+      internalID: -526773441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_232
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a404f3509f4ea744b3c9574d0d85567
+      internalID: 1354534674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_233
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016ae5a64f583dc44a1ca7d009e3f3d4
+      internalID: -1345978848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_234
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9af00d3e35dcc4ea1acb19b8ea4d50
+      internalID: 1629061128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_235
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12102305e072c4c4b8e46561cd286b02
+      internalID: -386175616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_236
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb832928faa52fb4780a2b2daa8f645f
+      internalID: -866122400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_237
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b371ad4c43674499a59ca38f5fc494
+      internalID: -1206945969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_238
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17a583eff58af34c8d1bfc9bf4388db
+      internalID: 1879066443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_239
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f072a775375693048af8934b280bf0ea
+      internalID: -1207578502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27416cbe07afe54eb77ed9fe637b55b
+      internalID: 1266149984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_241
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bde38d998a7b9649876cb48da42a706
+      internalID: -157404518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_242
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4959671ff0fa28044b0747b4bc516091
+      internalID: -1995570508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_243
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92100b8818c5b4546b2c288ad04e9adc
+      internalID: 2146285831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b441648d3b3fc964e84da2544d399f0e
+      internalID: -1911676786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_245
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5604deb4301804d905a597d6a60093
+      internalID: -2090151333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_246
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4764f4b505a62a842b3f235707b77923
+      internalID: -634297618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_247
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab960f7b58d8f048bd34d76db0bdbb6
+      internalID: 1608593888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_248
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b5ab356b749c44796a4b940555391c
+      internalID: 1638412654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_249
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b4346152931d74a901c7965ec0bd42
+      internalID: -977505555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_250
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633eac62d2b048a4f91fd29c7944b9f6
+      internalID: 1592236767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_251
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529238e9dba9e294e9d3247b7b9b2d3d
+      internalID: -452537923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_252
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4fcd2189cc7d24ba489b0fbd3a11f6
+      internalID: -2124510055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_253
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490f830c864bdc144926ec3231735daa
+      internalID: 381587035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_254
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b828a8f8671f08d43adceb9c4a866940
+      internalID: 67484266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_255
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9814e4dca794a944fb0ebcfc69be339e
+      internalID: -10104230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_256
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bde24d328731c4ead1ce18c34faff0
+      internalID: -1093777544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_257
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2772941cee9c0f545ae0c71f087fd976
+      internalID: 37819837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_258
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f746459398ce4d04d862ba5a14112dca
+      internalID: -51621262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_259
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 60
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8f4f4da295e514787efff98a023dea
+      internalID: -1306553226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_260
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0553d7c34723d4249b6e51c55c069b6b
+      internalID: 807294092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_261
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81270509c31b29d45ac95bc11ea2c9b6
+      internalID: 229562940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_262
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb9afc5c024b8d4aa0ff0dd9fa0528f
+      internalID: 348036361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_263
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eae7597c59a36a4ab36edac6ca79c22
+      internalID: -106633177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_264
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610bd5486d586b6409eed2085fbe822c
+      internalID: 127404973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_265
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba08d629b66a814881282a41a8ae24d
+      internalID: -1832572735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_266
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eb1398a497a2944a9c0ca069365ad0
+      internalID: -977984966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_267
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5d2b4ff08e9b54fbf2c8bc1405d07c
+      internalID: 861214975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_268
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b7e4a904804e54d84514bcbdcc28f1
+      internalID: -1934031994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_269
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3643c893fd88244bffb19b9898d4a3
+      internalID: 106292768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_270
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc5ae2848d4dfe4c97d5b63fc70f457
+      internalID: 1078185198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_271
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be887c0bdc10f6c448c5e0f1c6720576
+      internalID: 2142392778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_272
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29aaa4de4333e44190a76bb697167b9
+      internalID: -1149402999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_273
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40c0737d4bf0844e9081ced994aef9d
+      internalID: -1371259347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_274
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eadb41065c3604c8709d45eb64de5c
+      internalID: -180384783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_275
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff49b155e5c1b04abd3b9149592fae3
+      internalID: 741730358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_276
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85b9da99e650044babb90c990d0db28
+      internalID: -624204932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_277
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735aff88ddcfbcc45849e541a816e21d
+      internalID: 1722592853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_278
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2573d59713924bb49bfbf645b858eba5
+      internalID: 717874341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heaven_Sample_279
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 28
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8533559c22adaa4f839be4f1c74ccad
+      internalID: -1197072462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Heaven_Sample_0: 657717804
+      Heaven_Sample_1: 1725641393
+      Heaven_Sample_10: -2146599900
+      Heaven_Sample_100: 2085462629
+      Heaven_Sample_101: -2035023505
+      Heaven_Sample_102: -1627527856
+      Heaven_Sample_103: -782161857
+      Heaven_Sample_104: 1806364386
+      Heaven_Sample_105: 724139863
+      Heaven_Sample_106: -2045845469
+      Heaven_Sample_107: -880198757
+      Heaven_Sample_108: -701866596
+      Heaven_Sample_109: 2074119309
+      Heaven_Sample_11: 879057727
+      Heaven_Sample_110: 1157780769
+      Heaven_Sample_111: 682463933
+      Heaven_Sample_112: 2076091262
+      Heaven_Sample_113: 1016520219
+      Heaven_Sample_114: 1596050064
+      Heaven_Sample_115: -158163788
+      Heaven_Sample_116: -177157361
+      Heaven_Sample_117: 1182251193
+      Heaven_Sample_118: 775011091
+      Heaven_Sample_119: 785982971
+      Heaven_Sample_12: 162137266
+      Heaven_Sample_120: 1898244405
+      Heaven_Sample_121: 2077934405
+      Heaven_Sample_122: -97382537
+      Heaven_Sample_123: 988371993
+      Heaven_Sample_124: 631534778
+      Heaven_Sample_125: 380211462
+      Heaven_Sample_126: 1470153838
+      Heaven_Sample_127: -79268764
+      Heaven_Sample_128: -844939366
+      Heaven_Sample_129: -5333855
+      Heaven_Sample_13: 791680332
+      Heaven_Sample_130: -1251029863
+      Heaven_Sample_131: -1746003627
+      Heaven_Sample_132: 652223838
+      Heaven_Sample_133: 1131201038
+      Heaven_Sample_134: 2059287326
+      Heaven_Sample_135: -2085555992
+      Heaven_Sample_136: 233786869
+      Heaven_Sample_137: 1618710719
+      Heaven_Sample_138: 1253098699
+      Heaven_Sample_139: -1229469616
+      Heaven_Sample_14: -1820558171
+      Heaven_Sample_140: 1929475556
+      Heaven_Sample_141: 762842524
+      Heaven_Sample_142: 671703724
+      Heaven_Sample_143: -1769530506
+      Heaven_Sample_144: -1379530507
+      Heaven_Sample_145: -666300943
+      Heaven_Sample_146: 494632453
+      Heaven_Sample_147: -50721257
+      Heaven_Sample_148: 2102027914
+      Heaven_Sample_149: -655181434
+      Heaven_Sample_15: 2129149973
+      Heaven_Sample_150: -70368663
+      Heaven_Sample_151: 1746963254
+      Heaven_Sample_152: 1611509646
+      Heaven_Sample_153: -600296066
+      Heaven_Sample_154: 360906957
+      Heaven_Sample_155: 142780514
+      Heaven_Sample_156: 1022568820
+      Heaven_Sample_157: -1732366593
+      Heaven_Sample_158: 1507770232
+      Heaven_Sample_159: 2042669062
+      Heaven_Sample_16: -473498025
+      Heaven_Sample_160: 502002270
+      Heaven_Sample_161: 321351934
+      Heaven_Sample_162: -384578115
+      Heaven_Sample_163: 1609502882
+      Heaven_Sample_164: 270043859
+      Heaven_Sample_165: 367802721
+      Heaven_Sample_166: -629644141
+      Heaven_Sample_167: 906611830
+      Heaven_Sample_168: 667332193
+      Heaven_Sample_169: 1242081688
+      Heaven_Sample_17: -605684945
+      Heaven_Sample_170: -406418297
+      Heaven_Sample_171: 2084970691
+      Heaven_Sample_172: -1749986319
+      Heaven_Sample_173: 251232546
+      Heaven_Sample_174: -1223780350
+      Heaven_Sample_175: 597238335
+      Heaven_Sample_176: 1874648528
+      Heaven_Sample_177: -326450999
+      Heaven_Sample_178: 1613820305
+      Heaven_Sample_179: -93114462
+      Heaven_Sample_18: 1162046049
+      Heaven_Sample_180: -1220035158
+      Heaven_Sample_181: 1911890191
+      Heaven_Sample_182: -25041133
+      Heaven_Sample_183: 752756875
+      Heaven_Sample_184: -1778147365
+      Heaven_Sample_185: -1440739831
+      Heaven_Sample_186: 1354411962
+      Heaven_Sample_187: -1371262582
+      Heaven_Sample_188: 654693460
+      Heaven_Sample_189: 947626491
+      Heaven_Sample_19: 1139816096
+      Heaven_Sample_190: 1245390958
+      Heaven_Sample_191: -770617563
+      Heaven_Sample_192: -790254718
+      Heaven_Sample_193: -877092194
+      Heaven_Sample_194: -443478461
+      Heaven_Sample_195: 1788525778
+      Heaven_Sample_196: 2036080568
+      Heaven_Sample_197: -1280076643
+      Heaven_Sample_198: 968104836
+      Heaven_Sample_199: 222914986
+      Heaven_Sample_2: -776579763
+      Heaven_Sample_20: -1659634808
+      Heaven_Sample_200: -263745061
+      Heaven_Sample_201: -1143756377
+      Heaven_Sample_202: 1377848778
+      Heaven_Sample_203: 647953788
+      Heaven_Sample_204: 872057070
+      Heaven_Sample_205: -43449190
+      Heaven_Sample_206: 335083291
+      Heaven_Sample_207: -2049313960
+      Heaven_Sample_208: -1297128499
+      Heaven_Sample_209: 890505646
+      Heaven_Sample_21: 872439515
+      Heaven_Sample_210: -1034507134
+      Heaven_Sample_211: 1757930509
+      Heaven_Sample_212: 630397012
+      Heaven_Sample_213: 991655475
+      Heaven_Sample_214: 237478542
+      Heaven_Sample_215: -1133044032
+      Heaven_Sample_216: 982514688
+      Heaven_Sample_217: -1586551979
+      Heaven_Sample_218: 1374015066
+      Heaven_Sample_219: -1009026160
+      Heaven_Sample_22: -1059939014
+      Heaven_Sample_220: -913664501
+      Heaven_Sample_221: -1812203546
+      Heaven_Sample_222: 1524800871
+      Heaven_Sample_223: 352299082
+      Heaven_Sample_224: 547946985
+      Heaven_Sample_225: -1444237471
+      Heaven_Sample_226: 945056360
+      Heaven_Sample_227: -1276174308
+      Heaven_Sample_228: 1586367815
+      Heaven_Sample_229: 117459152
+      Heaven_Sample_23: -1772874424
+      Heaven_Sample_230: -106854582
+      Heaven_Sample_231: -526773441
+      Heaven_Sample_232: 1354534674
+      Heaven_Sample_233: -1345978848
+      Heaven_Sample_234: 1629061128
+      Heaven_Sample_235: -386175616
+      Heaven_Sample_236: -866122400
+      Heaven_Sample_237: -1206945969
+      Heaven_Sample_238: 1879066443
+      Heaven_Sample_239: -1207578502
+      Heaven_Sample_24: -1684737834
+      Heaven_Sample_240: 1266149984
+      Heaven_Sample_241: -157404518
+      Heaven_Sample_242: -1995570508
+      Heaven_Sample_243: 2146285831
+      Heaven_Sample_244: -1911676786
+      Heaven_Sample_245: -2090151333
+      Heaven_Sample_246: -634297618
+      Heaven_Sample_247: 1608593888
+      Heaven_Sample_248: 1638412654
+      Heaven_Sample_249: -977505555
+      Heaven_Sample_25: -334134426
+      Heaven_Sample_250: 1592236767
+      Heaven_Sample_251: -452537923
+      Heaven_Sample_252: -2124510055
+      Heaven_Sample_253: 381587035
+      Heaven_Sample_254: 67484266
+      Heaven_Sample_255: -10104230
+      Heaven_Sample_256: -1093777544
+      Heaven_Sample_257: 37819837
+      Heaven_Sample_258: -51621262
+      Heaven_Sample_259: -1306553226
+      Heaven_Sample_26: 1003692525
+      Heaven_Sample_260: 807294092
+      Heaven_Sample_261: 229562940
+      Heaven_Sample_262: 348036361
+      Heaven_Sample_263: -106633177
+      Heaven_Sample_264: 127404973
+      Heaven_Sample_265: -1832572735
+      Heaven_Sample_266: -977984966
+      Heaven_Sample_267: 861214975
+      Heaven_Sample_268: -1934031994
+      Heaven_Sample_269: 106292768
+      Heaven_Sample_27: 1185731830
+      Heaven_Sample_270: 1078185198
+      Heaven_Sample_271: 2142392778
+      Heaven_Sample_272: -1149402999
+      Heaven_Sample_273: -1371259347
+      Heaven_Sample_274: -180384783
+      Heaven_Sample_275: 741730358
+      Heaven_Sample_276: -624204932
+      Heaven_Sample_277: 1722592853
+      Heaven_Sample_278: 717874341
+      Heaven_Sample_279: -1197072462
+      Heaven_Sample_28: 1729782550
+      Heaven_Sample_29: 344635548
+      Heaven_Sample_3: 1168667697
+      Heaven_Sample_30: 1535811347
+      Heaven_Sample_31: 223218386
+      Heaven_Sample_32: 1047641489
+      Heaven_Sample_33: 1147198451
+      Heaven_Sample_34: 591075016
+      Heaven_Sample_35: -930714306
+      Heaven_Sample_36: 1476504717
+      Heaven_Sample_37: 1967393145
+      Heaven_Sample_38: 633138239
+      Heaven_Sample_39: -823606190
+      Heaven_Sample_4: -1066357506
+      Heaven_Sample_40: -1436997534
+      Heaven_Sample_41: 835979097
+      Heaven_Sample_42: 1355150480
+      Heaven_Sample_43: -90883707
+      Heaven_Sample_44: 1088663589
+      Heaven_Sample_45: 247130707
+      Heaven_Sample_46: 990655534
+      Heaven_Sample_47: -56870178
+      Heaven_Sample_48: -723975582
+      Heaven_Sample_49: -1070470006
+      Heaven_Sample_5: 427831317
+      Heaven_Sample_50: -1539166226
+      Heaven_Sample_51: 601432445
+      Heaven_Sample_52: 918491231
+      Heaven_Sample_53: 229626257
+      Heaven_Sample_54: -1846190750
+      Heaven_Sample_55: -1066023393
+      Heaven_Sample_56: 2142402401
+      Heaven_Sample_57: -492608754
+      Heaven_Sample_58: -1518302149
+      Heaven_Sample_59: 1873598794
+      Heaven_Sample_6: 643703203
+      Heaven_Sample_60: -604961622
+      Heaven_Sample_61: 794537932
+      Heaven_Sample_62: 108401326
+      Heaven_Sample_63: 929799760
+      Heaven_Sample_64: -432599538
+      Heaven_Sample_65: 1698839754
+      Heaven_Sample_66: -1399986054
+      Heaven_Sample_67: 1134389000
+      Heaven_Sample_68: -512629337
+      Heaven_Sample_69: -900122643
+      Heaven_Sample_7: 325515713
+      Heaven_Sample_70: -343719952
+      Heaven_Sample_71: -384883393
+      Heaven_Sample_72: 308414471
+      Heaven_Sample_73: 491650627
+      Heaven_Sample_74: -212661401
+      Heaven_Sample_75: 837212819
+      Heaven_Sample_76: 1629769068
+      Heaven_Sample_77: 79159778
+      Heaven_Sample_78: -1734599447
+      Heaven_Sample_79: -1293083530
+      Heaven_Sample_8: 1733228184
+      Heaven_Sample_80: -1623360843
+      Heaven_Sample_81: 1413822614
+      Heaven_Sample_82: -1974624520
+      Heaven_Sample_83: -2120691857
+      Heaven_Sample_84: -1630868914
+      Heaven_Sample_85: -1532122062
+      Heaven_Sample_86: -129860908
+      Heaven_Sample_87: -906609095
+      Heaven_Sample_88: -83314965
+      Heaven_Sample_89: 2074807269
+      Heaven_Sample_9: 501187580
+      Heaven_Sample_90: -1434905315
+      Heaven_Sample_91: -1609252466
+      Heaven_Sample_92: 539808077
+      Heaven_Sample_93: 1917309130
+      Heaven_Sample_94: -305119593
+      Heaven_Sample_95: 334144935
+      Heaven_Sample_96: -904976695
+      Heaven_Sample_97: 1464689740
+      Heaven_Sample_98: 696318711
+      Heaven_Sample_99: -1773554463
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

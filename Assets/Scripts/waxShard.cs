@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class collectible : MonoBehaviour
 {
+    [SerializeField] GameObject player;
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-<<<<<<< Updated upstream:Assets/Scripts/collectible.cs
-=======
     private void OnTriggerEnter2D(Collider2D other) {
-        player.GetComponent<PlayerScript>().waxNum++;
+        player.GetComponent<playerMovement>().waxNum++;
         Destroy(gameObject);
     }
->>>>>>> Stashed changes:Assets/Scripts/waxShard.cs
     // Update is called once per frame
     void Update()
     {

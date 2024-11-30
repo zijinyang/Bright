@@ -15,10 +15,12 @@ public class playerMovement : MonoBehaviour
     Rigidbody2D rb;
     BoxCollider2D cldr;
 
+    //wax counter
+    public int waxNum;
+
     //double jump
     // float jumpTimer = 0;
     bool canDoubleJump = false;
-    float numJumped = 0;
     int groundMask;
 
     bool isGrounded()
@@ -33,6 +35,7 @@ public class playerMovement : MonoBehaviour
         cldr = GetComponent<BoxCollider2D>();
         rb.freezeRotation = true;
         groundMask = LayerMask.GetMask("Ground");
+        waxNum = 0;
     }
 
     void OnMove(InputValue value)
@@ -42,14 +45,12 @@ public class playerMovement : MonoBehaviour
     }
 
     void OnJump(InputValue value){
-        if(numJumped == 0){
+        if(isGrounded()){
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-            numJumped++;
-            canDoubleJump = false;
         }
-        if(numJumped == 1 && canDoubleJump){
+        if(!isGrounded() && canDoubleJump){
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-            numJumped++;  
+            canDoubleJump = false;
         }
     }
 
@@ -57,9 +58,12 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         if(isGrounded()){
-            numJumped = 0;
+            canDoubleJump = true;
         }
-        if(Mathf.Approximately(rb.velocity.y, 0)){
+        if(waxNum < 1){
+            canDoubleJump = false;
+        }
+        if(Mathf.Approximately(rb.velocity.y, 0) && waxNum > 1){
             canDoubleJump = true;
         }
         rb.velocity = new Vector2(moveDir.x * movementSpeed, rb.velocity.y);
