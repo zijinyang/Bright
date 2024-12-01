@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 532ce672e128a412da7a6e3985b81460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 7653024990240066841, guid: a32cd70b0c09d45c2b3cc3bf45eb2641, type: 3}
+  player: {fileID: 1873713464019529935, guid: 87f86b57f8c2af94cbb253f049651659, type: 3}
   speed: 5
   damage: 0
   autoChasingRange: 8
