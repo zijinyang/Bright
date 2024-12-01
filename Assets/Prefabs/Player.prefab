@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5407222546935216190}
   - component: {fileID: 1882822872241088044}
   - component: {fileID: 2592087015256171169}
-  - component: {fileID: 6573106936085465646}
+  - component: {fileID: 53440567804955758}
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_DefaultActionMap: PlayerMovement
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &6573106936085465646
+--- !u!114 &53440567804955758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7094855512168640859}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 442f0af9202bf43029b49b7dbbaa1955, type: 3}
+  m_Script: {fileID: 11500000, guid: e9e2e83347308423cb395a4db90c739e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
