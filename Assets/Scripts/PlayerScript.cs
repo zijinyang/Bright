@@ -71,16 +71,26 @@ public class PlayerScript : MonoBehaviour
         }
      }
     
+    IEnumerator whitecolor() {
+        yield return new WaitForSeconds(0.5f);
+        GetComponent<SpriteRenderer> ().color = Color.white;
+    }
+
     public void TakeDamage(){
         Debug.Log(waxNum);
         if(waxNum >= 0){
             waxNum--;
+            GetComponent<SpriteRenderer>().color = Color.red;
+            StartCoroutine(whitecolor());
         }
         if(waxNum < 0){
             die();
         }
         Debug.Log(waxNum);
     }
+
+
+
     
     public void die(){
         animator.SetTrigger("Die");
@@ -108,6 +118,11 @@ public class PlayerScript : MonoBehaviour
             canDoubleJump = true;
         }
         rb.velocity = new Vector2(moveDir.x * movementSpeed, rb.velocity.y);
+        if(rb.velocity.x <0){
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        }else{
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
 
     void FixedUpdate()
