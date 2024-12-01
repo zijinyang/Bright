@@ -81,9 +81,13 @@ public class PlayerScript : MonoBehaviour
     }
     
     public void die(){
-        Time.timeScale = 0;
+        animator.SetTrigger("Die");
     }
 
+    public void death(){
+        Debug.Log("died");
+       Time.timeScale = 0;
+    }
     // Update is called once per frame
     void Update()
     {
