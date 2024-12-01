@@ -14,13 +14,15 @@ public class DynamicEnemy : MonoBehaviour
 
     private Rigidbody2D rb;
     private float distanceToPlayer;
+    
+    GameObject playerObject;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         agent = GetComponent<AIPath>();
         if (agent != null) agent.enabled = false;
-
+        playerObject = GameObject.FindWithTag("Player");
     }
 
     void Update()
@@ -58,23 +60,16 @@ public class DynamicEnemy : MonoBehaviour
         
     }
 
-
-    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.takeDamage(damage);
-                Destroy(gameObject);
-            }
+            player.GetComponent<PlayerScript>().TakeDamage();
+            Destroy(gameObject);
         }
         else if (collision.gameObject)
         {
             Destroy(gameObject);
         }
     }
-    */
 }

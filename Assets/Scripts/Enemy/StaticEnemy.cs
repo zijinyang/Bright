@@ -12,7 +12,8 @@ public class StaticEnemy : MonoBehaviour
     private Rigidbody2D rb;
 
     public int damage = 0;
-
+    
+    GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class StaticEnemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         Destroy(gameObject, lifeTime);
         StartCoroutine(StartMovingAfterDelay(1.5f));
+        player = GameObject.FindWithTag("Player");
     }
 
     // Coroutine to delay movement
@@ -29,24 +31,17 @@ public class StaticEnemy : MonoBehaviour
         rb.velocity = Vector2.left * speed; // Start moving to the left
     }
 
-
-    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.takeDamage(damage);
-                Destroy(gameObject);
-            }
+            player.GetComponent<PlayerScript>().TakeDamage();
+            Destroy(gameObject);
         }
         else if (collision.gameObject)
         {
             Destroy(gameObject);
         }
     }
-    */
 
 }
