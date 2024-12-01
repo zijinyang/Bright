@@ -11,8 +11,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerScript : MonoBehaviour
 {
+    [SerializeField] Animator animator;
     [SerializeField] float movementSpeed;
     [SerializeField] float jumpSpeed;
+    [SerializeField] GameObject hitbox;
     Vector2 moveDir = Vector2.zero;
     Rigidbody2D rb;
     BoxCollider2D cldr;
@@ -20,11 +22,15 @@ public class PlayerScript : MonoBehaviour
     //wax counter
     public int waxNum;
 
+    //ActionTracker
+    bool isActing;
     //double jump
-    // float jumpTimer = 0;
+    bool isJumping;
     bool canDoubleJump = false;
     int groundMask;
 
+    //attack
+    bool isAttacking;
     bool isGrounded()
     {
         return Physics2D.Raycast(transform.position, -Vector2.up, cldr.bounds.extents.y + 0.1f, groundMask);
@@ -38,6 +44,9 @@ public class PlayerScript : MonoBehaviour
         rb.freezeRotation = true;
         groundMask = LayerMask.GetMask("Ground");
         waxNum = 0;
+        hitbox.SetActive(false);
+        isAttacking = false;
+        isJumping = false;
     }
 
     void OnMove(InputValue value)
@@ -56,6 +65,10 @@ public class PlayerScript : MonoBehaviour
         }
     }
     
+    void OnAttack(InputValue value){
+      animator.SetTrigger("Attack");   
+     }
+    
     public void TakeDamage(){
         Debug.Log(waxNum);
         if(waxNum >= 0){
@@ -68,11 +81,15 @@ public class PlayerScript : MonoBehaviour
     }
     
     public void die(){
+        Time.timeScale = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(animator.GetCurrentAnimatorStateInfo(0).IsName("Player_attack")){
+            hitbox.SetActive(true);
+        }
         if(isGrounded()){
             canDoubleJump = true;
         }
