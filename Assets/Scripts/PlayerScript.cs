@@ -17,7 +17,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] GameObject hitbox;
     Vector2 moveDir = Vector2.zero;
     Rigidbody2D rb;
-    BoxCollider2D cldr;
+    CapsuleCollider2D cldr;
 
     //wax counter
     public int waxNum;
@@ -40,7 +40,7 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        cldr = GetComponent<BoxCollider2D>();
+        cldr = GetComponent<CapsuleCollider2D>();
         rb.freezeRotation = true;
         groundMask = LayerMask.GetMask("Ground");
         waxNum = 0;
