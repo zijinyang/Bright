@@ -23,10 +23,15 @@ public class DynamicEnemy : MonoBehaviour
         agent = GetComponent<AIPath>();
         if (agent != null) agent.enabled = false;
         playerObject = GameObject.FindWithTag("Player");
+        player = GameObject.FindWithTag("Player").transform;
     }
 
     void Update()
     {
+        if (player != null)
+        {
+            Debug.Log("Player's Current Position: " + player.position);
+        }
         distanceToPlayer = Vector2.Distance(transform.position, player.position);
         // Debug.Log(distanceToPlayer);
 
