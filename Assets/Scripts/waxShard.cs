@@ -12,8 +12,10 @@ public class waxShard: MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        player.GetComponent<PlayerScript>().waxNum++;
-        Destroy(gameObject);
+        if(other.tag == "Player"){
+            player.GetComponent<PlayerScript>().waxNum++;
+            Destroy(gameObject);
+        }
     }
     // Update is called once per frame
     void Update()

@@ -89,6 +89,8 @@ public class PlayerScript : MonoBehaviour
     {
         if(animator.GetCurrentAnimatorStateInfo(0).IsName("Player_attack")){
             hitbox.SetActive(true);
+        }else{
+            hitbox.SetActive(false);
         }
         if(isGrounded()){
             canDoubleJump = true;

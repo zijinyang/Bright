@@ -13,7 +13,6 @@ public class DamagingTrigger : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other) {
         if(GameObject.ReferenceEquals(other.gameObject, player)){
-            Debug.Log("player2");
             player.GetComponent<PlayerScript>().TakeDamage();
         }
     }
