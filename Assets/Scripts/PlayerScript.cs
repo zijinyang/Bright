@@ -25,12 +25,12 @@ public class PlayerScript : MonoBehaviour
     //ActionTracker
     bool isActing;
     //double jump
-    bool isJumping;
     bool canDoubleJump = false;
     int groundMask;
 
     //attack
-    bool isAttacking;
+    [SerializeField] float attackCooldownValue;
+    float attackCooldown;
     bool isGrounded()
     {
         return Physics2D.Raycast(transform.position, -Vector2.up, cldr.bounds.extents.y + 0.1f, groundMask);
@@ -45,8 +45,7 @@ public class PlayerScript : MonoBehaviour
         groundMask = LayerMask.GetMask("Ground");
         waxNum = 0;
         hitbox.SetActive(false);
-        isAttacking = false;
-        isJumping = false;
+        attackCooldown = 0f;
     }
 
     void OnMove(InputValue value)
@@ -66,7 +65,10 @@ public class PlayerScript : MonoBehaviour
     }
     
     void OnAttack(InputValue value){
-      animator.SetTrigger("Attack");   
+        if(attackCooldown <= 0){
+          animator.SetTrigger("Attack");   
+          attackCooldown = attackCooldownValue;
+        }
      }
     
     public void TakeDamage(){
@@ -110,6 +112,8 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+       if(attackCooldown > 0){
+        attackCooldown -= Time.deltaTime;
+       }
     }
 }

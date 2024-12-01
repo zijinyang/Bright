@@ -209,6 +209,7 @@ MonoBehaviour:
   jumpSpeed: 10
   hitbox: {fileID: 7595658591654532573}
   waxNum: 1
+  attackCooldownValue: 0.1
 --- !u!95 &4510929568274950869
 Animator:
   serializedVersion: 5
@@ -320,4 +321,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b40e9b77cff5f46f994805aea09201e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyFound: 0
