@@ -16,6 +16,7 @@ public class SectionGenerator : MonoBehaviour
     private bool finalSceneGenerated = false; // Track if the final scene is generated
     private backgroundScroller backgroundScroller; // Reference to the BackgroundScroller script
 
+    public bool isInfiniteRunner = true;  // Toggle for infinite runner mode
     void Start()
     {
         // Get the BackgroundScroller component
@@ -55,9 +56,8 @@ public class SectionGenerator : MonoBehaviour
 
     void SpawnNextSection()
     {
-        if (sceneCounter < maxScenes)
+        if (isInfiniteRunner)
         {
-            // Randomly select the next section or use a sequence
             GameObject nextSection = sections[Random.Range(0, sections.Length)];
             lastSection = Instantiate(nextSection, spawnPoint.position, Quaternion.identity);
             sceneCounter++;
@@ -68,10 +68,26 @@ public class SectionGenerator : MonoBehaviour
                 backgroundScroller.UpdateSectionCounter(sceneCounter);
             }
         }
-        else if (!finalSceneGenerated)
+        else
         {
-            lastSection = Instantiate(finalSection, spawnPoint.position, Quaternion.identity);
-            finalSceneGenerated = true;
+            if (sceneCounter < maxScenes)
+            {
+                // Randomly select the next section or use a sequence
+                GameObject nextSection = sections[Random.Range(0, sections.Length)];
+                lastSection = Instantiate(nextSection, spawnPoint.position, Quaternion.identity);
+                sceneCounter++;
+
+                // Notify the BackgroundScroller about the new section count
+                if (backgroundScroller != null)
+                {
+                    backgroundScroller.UpdateSectionCounter(sceneCounter);
+                }
+            }
+            else if (!finalSceneGenerated)
+            {
+                lastSection = Instantiate(finalSection, spawnPoint.position, Quaternion.identity);
+                finalSceneGenerated = true;
+            }
         }
     }
 
