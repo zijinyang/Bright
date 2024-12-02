@@ -13,7 +13,12 @@ public class waxShard: MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Player"){
-            player.GetComponent<PlayerScript>().waxNum++;
+            GetComponent<BoxCollider2D>().enabled=false;
+            Debug.Log("ok");
+            // player.GetComponent<PlayerScript>().waxNum++;
+            player.GetComponent<PlayerScript>().addWax();
+            Debug.Log("should only run once");
+            Debug.Log(player.GetComponent<PlayerScript>().waxNum);
             Destroy(gameObject);
         }
     }

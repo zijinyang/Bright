@@ -10,7 +10,7 @@ public class OptionsMenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        volumeSlider.value = 10;   
+        volumeSlider.value = 10;
     }
 
     // Update is called once per frame
@@ -25,8 +25,14 @@ public class OptionsMenuScript : MonoBehaviour
         Debug.Log(volumeSlider.value);
     }
 
+    public void openOptions(){
+        gameObject.SetActive(true);
+        Time.timeScale = 0;
+    }
+
     public void closeOptions()
     {
         gameObject.SetActive(false);
+        Time.timeScale = 1;
     }
 }
