@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 
 
@@ -110,7 +111,7 @@ public class PlayerScript : MonoBehaviour
 
     public void death(){
         Debug.Log("died");
-       Time.timeScale = 0;
+        SceneManager.LoadSceneAsync(2);
     }
     // Update is called once per frame
     void Update()

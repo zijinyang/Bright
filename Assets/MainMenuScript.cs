@@ -29,6 +29,10 @@ public class MainMenuScript : MonoBehaviour
         optionsMenu.SetActive(true);
     }
 
+    public void restart(){
+        SceneManager.LoadSceneAsync(0);
+    }
+
     // Update is called once per frame
     void Update()
     {
