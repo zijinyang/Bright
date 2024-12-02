@@ -30,7 +30,7 @@ public class DynamicEnemy : MonoBehaviour
     {
         if (player != null)
         {
-            Debug.Log("Player's Current Position: " + player.position);
+            // Debug.Log("Player's Current Position: " + player.position);
         }
         distanceToPlayer = Vector2.Distance(transform.position, player.position);
         // Debug.Log(distanceToPlayer);
@@ -70,9 +70,9 @@ public class DynamicEnemy : MonoBehaviour
         Debug.Log("collision");
         if (other.gameObject.CompareTag("Player"))
         {
+            Destroy(gameObject);
             Debug.Log("Damage");   
             player.GetComponent<PlayerScript>().TakeDamage();
-            Destroy(gameObject);
         }
     }
 }

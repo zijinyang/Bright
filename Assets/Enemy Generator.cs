@@ -33,6 +33,6 @@ public class EnemyGenerator : MonoBehaviour
     {
         Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
         // Rescan the A* grid after spawning
-        astarInstance.Scan();
+        // astarInstance.Scan();
     }
 }
