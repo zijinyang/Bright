@@ -65,15 +65,13 @@ public class DynamicEnemy : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        Debug.Log("collision");
+        if (other.gameObject.CompareTag("Player"))
         {
+            Debug.Log("Damage");   
             player.GetComponent<PlayerScript>().TakeDamage();
-            Destroy(gameObject);
-        }
-        else if (collision.gameObject)
-        {
             Destroy(gameObject);
         }
     }

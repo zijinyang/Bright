@@ -88,10 +88,6 @@ public class PlayerScript : MonoBehaviour
         }
         Debug.Log(waxNum);
     }
-
-
-
-    
     public void die(){
         animator.SetTrigger("Die");
     }
