@@ -46,7 +46,6 @@ public class PlayerScript : MonoBehaviour
         rb.freezeRotation = true;
         groundMask = LayerMask.GetMask("Ground");
         waxNum = 0;
-        hitbox.SetActive(false);
         attackCooldown = 0f;
         hitboxIsFlipped = false;
     }
@@ -66,13 +65,23 @@ public class PlayerScript : MonoBehaviour
             canDoubleJump = false;
         }
     }
+
+    void destroyEnemies(){
+        for(int i = 0; i < hitbox.GetComponent<PlayerAttack>().overTrigger.Count; i++){
+            Destroy(hitbox.GetComponent<PlayerAttack>().overTrigger[i]);
+          }
+          hitbox.GetComponent<PlayerAttack>().overTrigger = new List<GameObject>();
+          attackCooldown = attackCooldownValue;
+    }
     
     void OnAttack(InputValue value){
         if(attackCooldown <= 0){
-          animator.SetTrigger("Attack");   
-          attackCooldown = attackCooldownValue;
+          animator.SetTrigger("Attack");
+          destroyEnemies();
         }
      }
+
+
     
     IEnumerator whitecolor() {
         yield return new WaitForSeconds(0.5f);
@@ -107,9 +116,10 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         if(animator.GetCurrentAnimatorStateInfo(0).IsName("Player_attack")){
-            hitbox.SetActive(true);
+          destroyEnemies();
+            // hitbox.SetActive(true);
         }else{
-            hitbox.SetActive(false);
+            // hitbox.SetActive(false);
         }
         if(isGrounded()){
             canDoubleJump = true;
@@ -125,9 +135,11 @@ public class PlayerScript : MonoBehaviour
         if(rb.velocity.x <0){
             gameObject.GetComponent<SpriteRenderer>().flipX = true;
             if(!hitboxIsFlipped){hitbox.transform.localPosition = new Vector3(-hitbox.transform.localPosition.x, hitbox.transform.localPosition.y, hitbox.transform.localPosition.z);}
+            hitboxIsFlipped = true;
         }else{
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
             if(hitboxIsFlipped){hitbox.transform.localPosition = new Vector3(-hitbox.transform.localPosition.x, hitbox.transform.localPosition.y, hitbox.transform.localPosition.z);}
+            hitboxIsFlipped = false;
         }
     }
 
