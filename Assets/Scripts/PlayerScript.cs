@@ -105,7 +105,7 @@ public class PlayerScript : MonoBehaviour
     }
 
     public void addWax(){
-        waxNum = waxNum + 1;
+        waxNum++;
     }
 
     public void death(){
